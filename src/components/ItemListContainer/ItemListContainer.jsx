@@ -1,11 +1,14 @@
-import React from 'react'
 import "./styles.css"
+import ItemCount from '../ItemCount/ItemCount'
 
 
 const ItemListContainer = () => {
     return (
-        <div>
+        <div className= "main">
             <h2>Aqui comienza tu aventura</h2>
+            <ul>
+                <ItemCount stock = {10}/>
+            </ul>
         </div>
     )
 }
