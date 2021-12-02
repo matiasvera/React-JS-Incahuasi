@@ -17,7 +17,7 @@ const ItemCount = ({stock, initial = 1}) => {
         if (artOnAdd < artStock){
             setOnAdd (artOnAdd + 1)
         }else{
-            alert("No puede seleccionar mas cupos de los disponibles");
+            alert("No hay cupos disponibles");
         }
     }
     const restar = () => {
