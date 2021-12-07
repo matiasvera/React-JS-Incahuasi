@@ -1,0 +1,36 @@
+.ProductCardDetail *{
+    margin: auto;
+}
+
+.ProductCardDetail{
+    width: 500px;
+    height: 900px;
+    display: inline-flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin: 2rem;
+    padding: 1rem;
+    text-align: center;
+
+    -webkit-box-shadow: 5px 5px 13px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 5px 13px 0px rgba(0,0,0,0.75);
+    box-shadow: 5px 5px 13px 0px rgba(0,0,0,0.75);
+}
+
+.ProductCardDetail h1{
+    font-weight: 500;
+    margin-top: 0;
+    padding: 0.5rem;
+    color: black;
+}
+
+.ProductCardDetail img{
+    max-width: 500px;
+    max-height: 500px;
+    margin: 0 auto;
+}
+
+.ProductCardDetail p{
+    text-align: justify;
+}
+
